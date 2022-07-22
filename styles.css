@@ -21,7 +21,7 @@ section:nth-of-type(1){
     font-size: x-large;
 }
 
-img{
+.imagen-redonda > img{
    max-width: 100%;
    height: auto;
    border-radius: 50%;
@@ -71,4 +71,39 @@ h2{
     .introH2{
       font-size: 60px;
     }
+  }
+
+
+  .lista-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .lista-novedades li{
+    margin: 4px, 0;
+  }
+
+  .lista-novedades li a:hover{
+    color: #212529;
+    background-color: #dadada;
+    margin-left: 1.4rem;
+    opacity: 1;
+  }
+
+  .lista-novedades li a{
+    transition: all .2s ease-in-out;
+    display: block;
+    text-align: justify;
+    text-decoration: none;
+    color: #ffc371;
+  }
+
+  .lista-novedades >li img{
+    width: 100px;
+    height: auto;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
   }
