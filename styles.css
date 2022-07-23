@@ -107,3 +107,17 @@ h2{
     margin-right: 1rem;
     opacity: 0.7;
   }
+
+  .carousel-caption{
+    background-position: 25%;
+    top: 25% ;
+    bottom: auto;
+    color: #005f73;
+  }
+  .carousel-caption p{
+    color: #000000;
+   }
+
+   .carousel-inner{
+    padding-bottom: 1rem;
+   }
