@@ -38,7 +38,7 @@ userText.addEventListener('keyup', function (e) {
             targetDiv.style.display = "none";
         }
         else {
-            targetDiv.style.display = "block";
+            targetDiv.style.display = "flex";
             targetCaptcha.style.display = "none"
         }
     }
@@ -79,7 +79,7 @@ btn.onclick = function () {
         targetDiv.style.display = "none";
     }
     else {
-        targetDiv.style.display = "block";
+        targetDiv.style.display = "flex";
         targetCaptcha.style.display = "none"
     }
 }
