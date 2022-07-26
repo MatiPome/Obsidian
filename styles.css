@@ -184,3 +184,10 @@ h6 {
 .carousel-inner {
   padding-bottom: 1rem;
 }
+
+.card-title{
+  color:#ffd6ba;
+}
+.card-text{
+  color: #bee3db;
+}
